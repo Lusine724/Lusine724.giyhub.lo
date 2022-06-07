@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<title>Apartments</title>
+</head>
+<body>
+	<div class="header">
+		<div class="header_part" id="head_part">
+		    <div class="header_part_contain">
+				<div class="logo_part">
+					<h1 class="logo_part_title">RENTSPAGE</h1>
+					<p class="logo_part_txt">Apartments for Rent</p>
+				</div>
+			    <div class="menu_part">
+				<nav class="menu_contain">
+	     			<ul class="in_menu_contain">
+	     				<li>
+	     					<a href="" class="active">Home</a>
+	     				</li>
+	       				<li>
+	        				<a href="file:///C:/Users/User/Desktop/apartments/about.html">About</a>
+	        			</li>
+	        			<li class="with_hover">
+	           				<span class="hover_menu">
+	            			<a href="">Services<i class="fas fa-chevron-down"></i></a>
+								<nav class="dropdown_menu">
+		      						<ul class="in_dropdown_menu">
+							            <li>
+							            	<a href="#">Houses for rent</a>
+							            </li>
+							            <li>
+							            	<a href="#">Flats for rent</a>
+							            </li>
+									    <li>
+									    	<a href="#">Villas for rent</a>
+									    </li>
+									    <li>
+									    	<a href="#">Business solutions</a>
+									    </li>
+							        </ul>
+							    </nav>
+           				    </span>
+                        </li>
+						<li class="pages_hover">
+						    <span class="all_pages">
+								<a href="">Pages <i class="fas fa-chevron-down"></i></a>
+						        <div class="pages_contain">
+							        <div class="firts_pages">
+								        <h6 class="page_title">Pages 1</h6>
+									    <nav>
+										<ul class="in_dropdown_menu">
+											<li>
+												<a href="#">Our Team</a>
+											</li>
+											<li>
+												<a href="#">History</a>
+											</li>
+											<li>
+												<a href="#">Testimonials</a>
+											</li>
+											<li>
+												<a href="#">Single service</a>
+											</li>
+										</ul>
+									</nav>
+							</div>
+							<div class="firts_pages">
+									<h6 class="page_title">Pages 2</h6>
+								<nav>
+									<ul class="in_dropdown_menu">
+										<li>
+											<a href="#">Pricing</a>
+										</li>
+										<li>
+											<a href="#">Privacy</a>
+										</li>
+										<li>
+											<a href="#">404</a>
+										</li>
+										<li>
+											<a href="#">503</a>
+										</li>
+									</ul>
+								</nav>
+							</div>
+						   <div class="firts_pages">
+							<h6 class="page_title">Elements</h6>
+								<nav>
+									<ul class="in_dropdown_menu">
+										<li>
+											<a href="#">Typograhy</a>
+										</li>
+										<li>
+											<a href="#">Forms</a>
+										</li>
+										<li>
+											<a href="#">FAQ</a>
+										</li>	
+									</ul>
+								</nav>
+						   </div>
+						</div>
+					     </span>
+					    </li>
+						<li>
+							<a href="">Apartments</a>
+						</li>
+						<li>
+							<a href="">Contacts</a>
+						</li>
+	               </ul>
+	          </nav>
+	     </div>
+		<div class="user_btn" id="user_img">
+			<button class="user" onclick="more_registr()" id="click_advance">
+					<i class="fa fa-user" aria-hidden="true" onclick="myFunction(this)"></i>
+			</button>
+		    <div class="registr_part" id="show_regiser">
+			    <div class="registr_contain">
+					<h5 class="login_title">Log In</h5>	
+					<form class="info_register">
+					<div class="input_part">
+						<input type="text" name="" placeholder="Username" class="name_input">
+					</div>
+					<div class="input_part">
+						<input type="Password" name="" placeholder="Password" class="name_input">
+					</div>
+					<div class="check_input">
+						<input type="checkbox" name="">
+						<label class="Remember_txt">Remember me</label>
+				    </div>
+				    <div class="login_reg_btn">
+						<div class="btn_part">
+							<button class="login">Login</button>
+				    	</div>
+					    <div class="btn_part">
+							<button class="register_btn">Register</button>
+					    </div>
+				    </div>
+				    </form>
+			        <p class="forgot">Forgot
+						<a href="#">username</a>/
+						<a href="#">password</a>?
+			    	</p>
+			   </div>
+		    </div>
+		</div>						
+			</div>
+		</div>	
+		</div>
+	</div>
+	<div class="main">
+		<div class="img_part">
+			<div class="container">
+			   <div id="myCarousel" class="carousel slide" data-ride="carousel">
+			    <!-- Wrapper for slides -->
+			    <div class="carousel-inner">
+			      <div class="item active">
+			        <img src="images/bed1.jpg" alt="Los Angeles" style="width:100%;">
+			      </div>
+			      <div class="img_txt">
+			      	<h1 class="in_img_title">We are the leaders on the rental market</h1>
+			      </div>
+			      <div class="item">
+			        <img src="images/bed2.jpg" alt="Chicago" style="width:100%;">
+			         <div class="img_txt">
+			      	<h1 class="in_img_title">Real Estate Is Our Life</h1>
+			      </div>
+			      </div> 
+			      <div class="item">
+			        <img src="images/bed3.jpg" alt="Chicago" style="width:100%; position: relative;">
+			         <div class="img_txt">
+			      	<h1 class="in_img_title_2">Real Estate Services At Their Peak</h1>
+			      </div>
+			      </div>   
+			    </div>
+
+			    <!-- Left and right controls -->
+			    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+			      <span class="left_arrow">
+			      	<i class="fas fa-chevron-left"></i>
+			      </span>
+			        
+			    </a>
+			    <div class="small_img" id="img1" onmouseover = "show()">
+			      	<img src="images/bed3.jpg" alt="small_img">
+			      </div>
+			    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+			      <span class="rigth_arrow">
+			      	<i class="fas fa-chevron-right"></i>
+			      </span>
+			    </a>
+			    <div class="small_img_rigth">
+			      	<img src="images/bed3.jpg">
+			      </div>
+			  </div>
+  <div class="more_info">
+  	<div class="location_part">
+  		<input type="text" name="" placeholder="Location" class="loc_part">
+  	</div>
+  	<div class="proparty">
+  		<form action="" class="form_part">
+		    <select name="pro_type" id="pro_type" class="selct_txt">
+			    <option value="proparty_type">Property Type</option>
+			    <option value="Residentila">Residentila</option>
+			    <option value="Commerical">Commerical</option>
+			    <option value="Vacant_Land">Vacant Land</option>
+		    </select>
+        </form>
+  	</div>
+  	<div class="proparty">
+  		<form action="" class="form_part">
+		    <select name="pro_type" id="pro_type" class="selct_txt">
+			    <option value="proparty_type">Listing Type</option>
+			    <option value="Residentila">Exclusive Right to Sell</option>
+			    <option value="Commerical">Exclusive Agency</option>
+			    <option value="Vacant_Land">Open Agency</option>
+		  </select>
+        </form>
+  	</div>
+  <div class="proparty">
+  		<form action="" class="form_part">
+		    <select name="pro_type" id="pro_type" class="selct_txt">
+			    <option value="proparty_type">No. of Bedrooms</option>
+			    <option value="Residentila">1 Bedroom</option>
+			    <option value="Commerical">2 Bedroom</option>
+			    <option value="Vacant_Land">3 Bedroom</option>
+		  </select>
+        </form>
+  	</div>
+  	<div class="search_part">
+  		<button class="search_btn">Search</button>
+  	</div>	
+  </div>
+</div>	
+	</div>
+<div class="room_pricing">
+	<div class="room_pricing_contain">
+		<h1 class="recommended_title">Recommended Apartments</h1>
+	<div class="room_photos">
+		<div class="new_port new-port-fix">
+		<div class="pricing">
+			<span class="tag">$45</span>
+			<span class="small_day">/day</span>
+		</div>
+		<div class="thumb_overlay">
+			<p class="hover_txt">Located in New Jersey, Rentspace offersone-bedroom, two-bedroom, three-bedroom,and four-bedroom apartments for rent. Call today for pricing and availability!</p>
+		</div>
+		<div class="about_room">
+			<h4>
+				<a href="#" class="newport_title">Newport</a>
+			</h4>
+			<p class="newport_txt">100 Town Square Place, Jersey City, NJ</p>
+	    </div>
+		</div>
+		<div class="new_port_2 new-port-fix">			
+			<div class="pricing">
+				<span class="tag">$45</span>
+				<span class="small_day">/day</span>
+			</div>
+		<div class="thumb_overlay">
+			<p class="hover_txt">Located in New Jersey, Rentspace offersone-bedroom, two-bedroom, three-bedroom,and four-bedroom apartments for rent. Call today for pricing and availability!</p>
+		</div>
+		<div class="about_room">
+		<h4>
+			<a href="#" class="newport_title">Modera Lofts</a>
+		</h4>
+		<p class="newport_txt">100 Jersey City, NJ 07032</p>
+	</div>
+		</div>
+		<div class="new_port_3 new-port-fix">	
+		<div class="pricing">
+			<span class="tag">$45</span>
+			<span class="small_day">/day</span>
+		</div>
+		<div class="thumb_overlay">
+			<p class="hover_txt">Located in New Jersey, Rentspace offersone-bedroom, two-bedroom, three-bedroom,and four-bedroom apartments for rent. Call today for pricing and availability!</p>
+		</div>
+	<div class="about_room">
+		<h4>
+			<a href="#" class="newport_title">Altis at Kendall Square</a>
+		</h4>
+		<p class="newport_txt">16950 SW 93 Street, Miami, FL</p>
+	</div>
+		</div>
+	</div>
+	<div class="room_photos">
+		<div class="new_port_4 new-port-fix">	
+		<div class="pricing">
+			<span class="tag">$45</span>
+			<span class="small_day">/day</span>
+		</div>
+		<div class="thumb_overlay">
+			<p class="hover_txt">Located in New Jersey, Rentspace offersone-bedroom, two-bedroom, three-bedroom,and four-bedroom apartments for rent. Call today for pricing and availability!</p>
+		</div>
+		<div class="about_room">
+		<h4>
+			<a href="#" class="newport_title">Newport</a>
+		</h4>
+		<p class="newport_txt">100 Town Square Place, Jersey City, NJ</p>
+	</div>
+		</div>
+		<div class="new_port_5 new-port-fix">
+			<div class="pricing">
+				<span class="tag">$45</span>
+				<span class="small_day">/day</span>
+			</div>
+			<div class="thumb_overlay">
+				<p class="hover_txt">Located in New Jersey, Rentspace offersone-bedroom, two-bedroom, three-bedroom,and four-bedroom apartments for rent. Call today for pricing and availability!</p>
+			</div>
+			<div class="about_room">
+			<h4>
+				<a href="#" class="newport_title">Modera Lofts</a>
+			</h4>
+			<p class="newport_txt">100 Jersey City, NJ 07032</p>
+		    </div>
+		</div>
+		<div class="new_port_6 new-port-fix">
+			<div class="pricing">
+				<span class="tag">$45</span>
+				<span class="small_day">/day</span>
+		    </div>
+			<div class="thumb_overlay">
+				<p class="hover_txt">Located in New Jersey, Rentspace offersone-bedroom, two-bedroom, three-bedroom,and four-bedroom apartments for rent. Call today for pricing and availability!</p>
+			</div>
+			<div class="about_room">
+				<h4>
+					<a href="#" class="newport_title">Altis at Kendall Square</a>
+				</h4>
+				<p class="newport_txt">16950 SW 93 Street, Miami, FL</p>
+			</div>
+		</div>
+	</div>
+	<div class="room_photos">
+		<div class="new_port_7 new-port-fix">
+			<div class="pricing">
+				<span class="tag">$45</span>
+				<span class="small_day">/day</span>
+		    </div>
+			<div class="thumb_overlay">
+				<p class="hover_txt">Located in New Jersey, Rentspace offersone-bedroom, two-bedroom, three-bedroom,and four-bedroom apartments for rent. Call today for pricing and availability!</p>
+			</div>
+		<div class="about_room">
+		<h4>
+			<a href="#" class="newport_title">Newport</a>
+		</h4>
+		<p class="newport_txt">100 Town Square Place, Jersey City, NJ</p>
+	    </div>
+		</div>
+		<div class="new_port_8 new-port-fix">
+			<div class="pricing">
+				<span class="tag">$45</span>
+				<span class="small_day">/day</span>
+		    </div>
+		<div class="thumb_overlay">
+			<p class="hover_txt">Located in New Jersey, Rentspace offersone-bedroom, two-bedroom, three-bedroom,and four-bedroom apartments for rent. Call today for pricing and availability!</p>
+		</div>
+		<div class="about_room">
+		<h4>
+			<a href="#" class="newport_title">Modera Lofts</a>
+		</h4>
+		<p class="newport_txt">100 Jersey City, NJ 07032</p>
+	    </div>
+		</div>
+		<div class="new_port_9 new-port-fix">
+		<div class="pricing">
+			<span class="tag">$45</span>
+			<span class="small_day">/day</span>
+		</div>
+		<div class="thumb_overlay">
+			<p class="hover_txt">Located in New Jersey, Rentspace offersone-bedroom, two-bedroom, three-bedroom,and four-bedroom apartments for rent. Call today for pricing and availability!</p>
+		</div>
+		<div class="about_room">
+			<h4>
+				<a href="#" class="newport_title">Altis at Kendall Square</a>
+			</h4>
+			<p class="newport_txt">16950 SW 93 Street, Miami, FL</p>
+		</div>
+		</div>
+	</div>
+    </div>
+</div>
+<div class="gif_bg_part">
+	<div class="gif_bg_contain">
+		<video autoplay loop muted class="video_part" width="1504px" height="800px">
+			<source src="images/gif.mp4" type="video/mp4">
+		</video>
+		<div class="in_video">
+			<h1 class="Advantages">Our Advantages</h1>
+		<div class="numbers">
+			<div class="first_div">
+				<div class="in_first_div">
+					<span class="number_of_div">25</span>
+		        </div>
+		<div class="new_appart">
+	        <p class="new_appart_txt">New apartments every day</p>
+		</div>
+		</div>
+		<div class="first_div">
+			<div class="in_first_div">
+				<span class="number_of_div">56K</span>
+			</div>
+		<div class="new_appart">
+			<p class="new_appart_txt">Satisfied customers</p>
+		</div>
+		</div>
+		<div class="first_div">
+		<div class="in_first_div">
+			<span class="number_of_div">856</span>
+		</div>
+		<div class="new_appart">
+			<p class="new_appart_txt">Luxury apartments</p>
+		</div>
+		</div>
+		<div class="first_div">
+			<div class="in_first_div">
+				<span class="number_of_div">85</span>
+			</div>
+		<div class="new_appart">
+			<p class="new_appart_txt">Large mansions</p>
+		</div>
+		</div>	
+		</div>
+		</div>
+	</div>
+</div>
+<div class="service_part">
+	<div class="service_part_container">
+		<h2 class="services_title">Services</h2>
+		<div class="service_images">
+			<div class="bizunes_rooms">
+	  			<div class="vacation_rentals vacation_rentals_all">
+	  		 		<div class="up_down_div">
+	  					<h2 class="up_title">Vacation Rentals</h2>
+	  					<div class="learn_more">
+			  			<button class="learn_more_btn">
+			  				<span class="learn_more_span">Leran More</span>
+			  			</button>
+	  		            </div>
+	            	</div>
+	 		
+	  	        </div>
+	        </div>
+	  	  <div class="bizunes_rooms">
+	  			<div class="vacation_rentals_2 vacation_rentals_all"> 
+	  				<div class="up_down_div">
+				  		<h2 class="up_title">Corporate Apartments</h2>
+				  		<div class="learn_more">
+				  			<button class="learn_more_btn">
+				  				<span class="learn_more_span">Leran More</span>
+				  			</button>
+				  		</div>
+	            	</div>
+	 		  	</div>
+	      </div>
+	  	  <div class="bizunes_rooms">
+	  <div class="vacation_rentals_3 vacation_rentals_all"> 
+	  	<div class="up_down_div">
+	  		<h2 class="up_title">Unfurnished</h2>
+	  		<div class="learn_more">
+	  			<button class="learn_more_btn">
+	  				<span class="learn_more_span">Leran More</span>
+	  			</button>
+	  		</div>
+	  	</div>	 		
+	  	</div>
+	  </div>
+	  	  <div class="bizunes_rooms">
+	  <div class="vacation_rentals_4 vacation_rentals_all">
+	    <div class="up_down_div">
+	  		<h2 class="up_title">Vacation Rentals</h2>
+	  		<div class="learn_more">
+	  			<button class="learn_more_btn">
+	  				<span class="learn_more_span">Leran More</span>
+	  			</button>
+	  		</div>
+	  	</div>	 		
+	  	</div>
+	  </div>
+	</div>
+	</div>
+  <div class="all_services">
+  	<button class="learn_more_btn"><span>All Services</span></button>
+  </div>
+</div>
+<div class="testimonials_part">
+	<div class="testimonials_part_img">
+		<div class="paralax_material">
+			<h1 class="test_title">Testimonials</h1>
+<div class="persons_comment_part">
+	<div class="person_img">
+		<img src="images/ryan.jpg">
+	</div>
+	<p class="person_name">Ryan Webber</p>
+	<p>
+		<span class="icon_simbol"></span>
+	<p class="user_comment">
+  		Thank you very much! I'm impressed with the range of your apartments. The one I have rent is literally amazing, thanks again!
+    </p>
+	</p>
+</div>
+		</div>
+	</div>
+</div>
+<div class="contact_us">
+	<div class="contact_us_contain">
+		<h2 class="contact_title">Contact Us</h2>
+	    <form>
+			<div class="contact_inputs">
+				<div class="input_label">
+				<input type="text" name="" placeholder="Name" class="name_part input-design">
+			    </div>
+			<div class="input_label">
+				<input type="numbers" name="" placeholder="Phone" class="phone_part input-design">
+			</div>
+		    </div>
+			<div class="mail_label">
+				<input type="E-mail" name="" class="mail_part input-design" placeholder="E-mail">
+			</div>
+			<div class="text_label">
+				<textarea placeholder="Message" class="message_part input-design"></textarea>
+			</div>
+	</form>
+<div class="send_part">
+	<button class="send_message">
+		<span class="btn_span">Send</span>
+	</button>
+</div>
+	</div>
+</div>
+	</div>
+<div class="footer">
+	<div class="in_footer">
+		<div class="location_number">
+			<div class="addres_part">
+				<address>
+				    <a href="#" class="addres_link" >
+					<span><i class="fas fa-map-marker-alt"></i></span>
+				    <span class="footer_addres_txt">8901 Marmora Road, Glasgow, D04 89GR</span>
+				    </a>
+		        </address>
+	       </div>
+	<div class="phone_number">
+		<a href="#" class="phone_link">
+			<span><i class="fas fa-phone fa-map-marker-alt"></i></span>
+			<span class="footer_addres_txt">1-800-1234-567</span>
+		</a>
+	</div>
+</div>
+<div class="location_number">
+	<div class="socila_icons_part">
+		<nav>
+			<ul class="socila_icons">
+				<li>
+					<a href="#"><i class="fab fa-facebook-f icon_css"></i></a>
+				</li>
+				<li>
+					<a href="#" class="face"><i class="fab fa-twitter icon_css"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fab fa-instagram icon_css"></i></a>
+				</li>
+				<li>
+					<a href="#"><i class="fab fa-google-plus-g icon_css"></i></a>
+				</li>
+			</ul>
+		</nav>
+	</div>
+	<div>
+		<p class="copyrigth">Rentspace © 2021 Privacy Policy</p>
+	</div>
+</div>
+	</div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
